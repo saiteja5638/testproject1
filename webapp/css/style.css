@@ -1,0 +1,19 @@
+div#application-testproject1-display-component---View1--_IDGenPanel {
+    padding: 30px;
+}
+div#_IDGenVBox {
+    padding: 20px;
+}
+.animated-icon {
+    animation: spin 2s linear infinite;
+    color: green;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+span#animatedIcon {
+    position: relative;
+    left: 120px;
+}
